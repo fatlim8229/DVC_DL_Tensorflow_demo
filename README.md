@@ -7,7 +7,7 @@ download data --> [source](https://drive.google.com/drive/u/5/folders/1tz4IOoJKd
 
 ### create a new env
 ```bash
-conda create --prefix ./env python=3.7 -y
+conda create --prefix ./env python=3.8 -y
 ```
 
 ### activate new env
@@ -30,4 +30,9 @@ touch src/__init__.py src/utils/__init__.py param.yaml dvc.yaml config/config.ya
 ### install src 
 ```bash
 pip install -e .
+```
+
+### run python
+```bash
+python src/stage_01_load_save.py
 ```
